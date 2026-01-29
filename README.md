@@ -13,7 +13,7 @@ This makes for a good "base station" or "Router" node that can be mounted high o
 Fully Assembled units available here: https://frequencylabs.etsy.com
 
 
-![](https://github.com/chrismyers2000/MeshAdv-Mini/blob/6fad3e7618cef262edfb8fcbe4b52011aaec8268/Photos/Top_3D_PCB%20MeshAdv%20Mini%20Stackable.png)
+![](https://github.com/chrismyers2000/MeshAdv-Pro/blob/00bab0965924d90849e9e20a2da241c23f4a666a/Photos/3D_MeshAdv%20Pro_top.png)
 
 == NOTICE!! always have an antenna connected to the LoRa module when powered on, failure to do so can damage the module. ==
 
