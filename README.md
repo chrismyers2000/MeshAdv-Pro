@@ -1,11 +1,11 @@
-![](https://github.com/chrismyers2000/MeshAdv-Mini/blob/298581bdf106296083a373f97896de44633c6cd1/Data/Misc/MeshAdv%20Mini%20Logo.png)
+![](https://github.com/chrismyers2000/MeshAdv-Pro/blob/67e0fdb3085e3947375a8d37082c85579b58b206/Data/Misc/logo.png)
 
 ---
 
 
 ==The MeshAdv Pro has just been released, the project and this README is currently a work in progress==
 
-The MeshAdv Pro is a Lora/GPS Raspberry Pi hat designed to be used with the Linux-native version of [Meshtastic](https://meshtastic.org/) known as [meshtasticd](https://meshtastic.org/docs/hardware/devices/linux-native-hardware/). It is the nerdier younger brother to the original MeshAdv Pi Hat. The board includes a +30dbm LoRa module with TCXO, LNA, PA and built in filtering. Also on the board is an integrated GPS module, HAT+ EEPROM, Temperature Sensor, 5V PWM Fan header, and breakout for I2C bus including Qwiic connector. 
+The MeshAdv Pro is a Lora/GPS Raspberry Pi hat designed to be used with the Linux-native version of [Meshtastic](https://meshtastic.org/) known as [meshtasticd](https://meshtastic.org/docs/hardware/devices/linux-native-hardware/). It is the nerdier younger brother to the original MeshAdv Pi Hat. The board includes a +30dbm LoRa module with TCXO, LNA, and PA. Also on the board is an integrated GPS module, HAT+ EEPROM, Temperature Sensor, 5V PWM Fan header, and breakout for I2C bus including Qwiic connector. 
 This makes for a good "base station" or "Router" node that can be mounted high on a pole and powered over POE (using separate POE adapter or Hat). No more need to retrieve the node everytime you want to update firmware, it can all be done remotely. It also makes it easy and reliable to connect to MQTT.
 
 ---
