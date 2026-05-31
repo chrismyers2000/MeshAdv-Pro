@@ -36,7 +36,7 @@ Fully Assembled units available here: https://frequencylabs.etsy.com
 |25   |    |GND        |                       |   |   |26   |7   |           |                                 |
 |27   |0   |ID-SDA     |(I2C0) For HAT+ EEPROM |   |   |28   |1   |ID-SCL     |(I2C0) For HAT+ EEPROM           |
 |29   |5   |Unused     |                       |   |   |30   |    |GND        |                                 |
-|31   |6   |Unused     |                       |   |   |32   |12  |RXEN       |(LoRa) Recieve Enable            |
+|31   |6   |Unused     |                       |   |   |32   |12  |EN         |(LoRa) TX/RX Enable              |
 |33   |13  |Unused     |                       |   |   |34   |    |GND        |                                 |
 |35   |19  |Unused     |                       |   |   |36   |16  |IRQ        |(LoRa)                           |
 |37   |26  |Unused     |                       |   |   |38   |20  |BUSY       |(LoRa)                           |
