@@ -68,7 +68,7 @@ Fully Assembled units available here: https://frequencylabs.etsy.com
 | Raspberry Pi Pico       | Never*   |
 | Raspberry Pi Pico W     | Never*   |
 
-*Raspberry Pi `1 Model A`, `1 Model B`, and `Pico` do not implement the 40-pin layout used in the MeshAdv Pi Hat.
+*Raspberry Pi `1 Model A`, `1 Model B`, and `Pico` do not implement the 40-pin layout used in the MeshAdv Pro.
 
 
 
@@ -93,7 +93,7 @@ These instructions assume you are using a raspberry pi with Raspberry Pi OS.
 ## New Method:
 
    - As methods keep changing, please [CLICK HERE](https://meshtastic.org/docs/hardware/devices/linux-native-hardware/?os=raspbian) for the most up to date configuration process
-   - There was an error in the initial config.d file. It has been fixed but may take a while to migrate to Beta. Please copy the file from here in the meantime: [Download](https://github.com/chrismyers2000/MeshAdv-Mini/blob/4c952fa066cf92b278a3ad54c8098b99bcde8b93/Data/lora-MeshAdv-Mini-900M22S.yaml)
+
 ---
 ## Old Method:
 
@@ -107,13 +107,11 @@ add or uncomment the following lines as needed.
 
 ```yaml
 Lora:
-  Module: sx1262  # Ebyte E22-900M22S choose only one module at a time
-# Module: sx1268  # Ebyte E22 400M22S
+  Module: sx1262  # Ebyte E22P-915M30S 
   CS: 8  
   IRQ: 16
   Busy: 20
   Reset: 24
-  RXen: 12
   DIO2_AS_RF_SWITCH: true
   DIO3_TCXO_VOLTAGE: true
 
@@ -135,6 +133,11 @@ General:
 ```
 ## LoRa Setup:
 
+- Add this line to the `/boot/firmware/config.txt` file: Reboot to take effect
+  ```bash
+  gpio=12=op,dh
+  ```
+  
 - You must now set the LoRa Region to be able to start using Meshtastic. [CLICK HERE](https://meshtastic.org/docs/getting-started/initial-config/#set-regional-settings) for info on how to set region settings. Please note: Linux-Native is currently unable to connect over bluetooth or to the Apple app. All other methods are working. 
 
 ---
